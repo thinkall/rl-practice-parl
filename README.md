@@ -32,7 +32,7 @@ Notebook, codes and results of Quadrotor Velocity Control task.
 
 - "velocity_control" task
 
-<div align="center"><img src="./RL-Quadrotor/demo_velocity_control.gif" width="400"/></div>
+<div align="center"><img src="./RL-Quadrotor/demo_quadrotor_velocity.gif" width="400"/></div>
 
 Yellow arrow is the expected velocity vector; orange arrow is the real velocity vector.
 

@@ -4,7 +4,7 @@ Control Quadrotor with Reinforcement Learning
 Simulation Environment: [RLSchool](https://github.com/PaddlePaddle/RLSchool/tree/master/rlschool/quadrotor)
 
 #### "velocity_control" task
-<div align="center"><img src="./demo_velocity_control.gif" width="400"/></div>
+<div align="center"><img src="./demo_quadrotor_velocity.gif" width="400"/></div>
 
 Yellow arrow is the expected velocity vector; orange arrow is the real velocity vector.
 
