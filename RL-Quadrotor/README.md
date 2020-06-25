@@ -3,12 +3,16 @@ Control Quadrotor with Reinforcement Learning
 
 Simulation Environment: [RLSchool](https://github.com/PaddlePaddle/RLSchool/tree/master/rlschool/quadrotor)
 
+The theoretical reward limit of this environment is 0. In reality, it will always be a negative number. If one choose
+randome actions at every step, he may get -1000 reward score on average.
+
 #### "velocity_control" task
 <div align="center"><img src="./demo_quadrotor_velocity.gif" width="400"/></div>
 
 Yellow arrow is the expected velocity vector; orange arrow is the real velocity vector.
 
 #### training reward curve
+
 This is the history reward of training process for 
 - ACTOR_LR = 0.0001  # Actor网络更新的 learning rate
 - CRITIC_LR = 0.01   # Critic网络更新的 learning rate
