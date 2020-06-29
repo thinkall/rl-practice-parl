@@ -28,7 +28,7 @@ It contains the notebooks for homework projects. For projects #4 and #5, pre-tra
 - 5. quadrotor-hovering-ddpg
 
 ## RL-Quadrotor
-Notebook, codes and results of Quadrotor Velocity Control task.
+Notebook, codes and results of Quadrotor Velocity Control task in RLSchool.
 
 - "velocity_control" task
 
@@ -37,8 +37,26 @@ Notebook, codes and results of Quadrotor Velocity Control task.
 Yellow arrow is the expected velocity vector; orange arrow is the real velocity vector.
 
 ## RL-FlappyBird
-Notebook, codes and results of Flappy Bird in pygame.
+Codes and results of Flappy Bird in PLE pygame.
 
 - FlappyBird
 
-<div align="center"><img src="./RL-FlappyBird/demo_flappybird.gif" width="400"/></div>
+<div align="center"><img src="./RL-FlappyBird/demo_flappybird.gif" height="400"/></div>
+
+## RL-BipedalWalker
+Notebook, codes and results of BipedalWalker task in openAI gym.
+
+- BipedalWalker
+
+<div align="center"><img src="./RL-BipedalWalker/demo_bipedalwalker.gif" width="400"/></div>
+
+## Installation
+First install requirements:
+```shell script
+pip install -r requirements.txt
+```
+Then go to RL-Quadrotor or RL-FlappyBird or RL-BipedalWalker and try with:
+```shell script
+python train.py
+```
+

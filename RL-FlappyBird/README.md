@@ -15,7 +15,7 @@ Here we can use RGB image or state data as input.
 FlappyBird does not have a specified reward threshold at which it's considered solved. Go get as high as you can!
 
 #### FlappyBird
-Below gifs demostrate the beginning and ending of a running with model
+Below gifs demonstrate the beginning and ending of a running with model
 **dqn_model_1600_2274.5.ckpt**, the final score is **2932**.
 
 <div align="center"><img src="./demo_flappybird.gif" height="400"/></div>
@@ -40,7 +40,7 @@ Modify train.py to run test or train your own model.
 
 Uncomment different lines in train.py
 ```python
-## Finetune an existing model
+## Fine tune an existing model
 # main(lr_scheduler, max_episode=100000, load_model=True, go_steps=1, f_pretrain='./model_dir/dqn_model_1600_2274.5.ckpt')
 
 ## Train a new model
@@ -48,4 +48,14 @@ Uncomment different lines in train.py
 
 ## Test a pre-trained model
 # test(f_model='./model_dir/dqn_model_1600_2274.5.ckpt', rounds=1)
+```
+
+#### Installation
+First install requirements:
+```shell script
+pip install -r ../requirements.txt
+```
+Then try with:
+```shell script
+python train.py
 ```

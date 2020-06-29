@@ -1,5 +1,5 @@
 # rpm file
-*.rpm.npz
+*.npz
 
 # Mac
 *.DS_Store

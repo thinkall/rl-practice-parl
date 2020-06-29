@@ -1,5 +1,5 @@
 # RL-Quadrotor
-Control Quadrotor with Reinforcement Learning
+Control Quadrotor with Reinforcement Learning DDPG algorithm.
 
 Simulation Environment: [RLSchool](https://github.com/PaddlePaddle/RLSchool/tree/master/rlschool/quadrotor)
 
@@ -76,5 +76,15 @@ Uncomment different lines in train.py
 ```python
 # parallel(15)  # train from beginning
 # test_best(render=True)  # test current best model
-# fine_tune(ACTOR_LR=0.0001, CRITIC_LR=0.01, episodes=10, go_steps=1)  # finetune existing model
+# fine_tune(ACTOR_LR=0.0001, CRITIC_LR=0.01, episodes=10, go_steps=1)  # fine tune existing model
+```
+
+#### Installation
+First install requirements:
+```shell script
+pip install -r ../requirements.txt
+```
+Then try with:
+```shell script
+python train.py
 ```
