@@ -45,7 +45,7 @@ Uncomment different lines in train.py
 #### Installation
 First install requirements:
 ```shell script
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 ```
 Then try with:
 ```shell script
